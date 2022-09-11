@@ -2,7 +2,7 @@
 	"name": "cnp-decoder",
 	"version": "1.0.0",
 	"description": "A function that decodes a romanian CNP and returns a object containing informations about the person it belongs to",
-	"main": "src/index.ts",
+	"main": "dist/index.js",
 	"scripts": {
 		"start": "npx tsc && node dist/index.js",
 		"test": "jest"
