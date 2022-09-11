@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.decodeCNP = void 0;
 const functions_1 = require("./functions");
 const getAge_1 = require("./functions/getAge");
 const getCounty_1 = require("./functions/getCounty");
@@ -13,16 +14,15 @@ function decodeCNP(input) {
     }
     const gender = (0, functions_1.getGender)(cnp);
     const birthDate = (0, functions_1.getBirthDate)(cnp);
-    const birthYear = (0, getAge_1.getAge)(cnp);
+    const age = (0, getAge_1.getAge)(cnp);
     const county = (0, getCounty_1.getCounty)(cnp);
     const isResident = (0, functions_1.checkIfResident)(cnp);
     return {
         gender,
         birthDate,
-        birthYear,
+        age,
         county,
         isResident
     };
 }
-console.log(decodeCNP(5040620125783));
-exports.default = decodeCNP;
+exports.decodeCNP = decodeCNP;
