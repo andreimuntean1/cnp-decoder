@@ -1,0 +1,28 @@
+{
+	"name": "cnp-decoder",
+	"version": "1.0.0",
+	"description": "A function that decodes a romanian CNP and returns a object containing informations about the person it belongs to",
+	"main": "src/index.ts",
+	"scripts": {
+		"start": "npx tsc && node dist/index.js",
+		"test": "jest"
+	},
+	"keywords": [
+		"cnp",
+		"romania",
+		"cnp decoder"
+	],
+	"author": {
+		"name": "Andrei Muntean",
+		"email": "contact@andreimuntean.dev",
+		"url": "https://andreimuntean.dev"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/andreimuntean1/cnp-decoder"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"typescript": "^4.7.4"
+	}
+}

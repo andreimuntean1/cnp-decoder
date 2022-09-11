@@ -1,0 +1,1 @@
+export const checkIfResident: (cnp: string) => boolean | string | undefined = cnp => cnp.split('')[0] == '7' || cnp.split('')[0] == '8'
