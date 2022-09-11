@@ -1,11 +1,10 @@
 {
 	"name": "cnp-decoder",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A function that decodes a romanian CNP and returns a object containing informations about the person it belongs to",
 	"main": "dist/index.js",
 	"scripts": {
-		"start": "npx tsc && node dist/index.js",
-		"test": "jest"
+		"start": "npx tsc && node dist/index.js"
 	},
 	"keywords": [
 		"cnp",
@@ -23,6 +22,6 @@
 	},
 	"license": "MIT",
 	"devDependencies": {
-		"typescript": "^4.7.4"
+		"typescript": "^4.8.3"
 	}
 }
