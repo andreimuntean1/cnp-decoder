@@ -3,6 +3,7 @@
 	"version": "1.0.2",
 	"description": "A function that decodes a romanian CNP and returns a object containing informations about the person it belongs to",
 	"main": "dist/index.js",
+	"types": "src/main.d.ts",
 	"scripts": {
 		"start": "npx tsc && node dist/index.js"
 	},
