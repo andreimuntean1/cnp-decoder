@@ -1,6 +1,6 @@
 {
 	"name": "cnp-decoder",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"description": "A function that decodes a romanian CNP and returns a object containing informations about the person it belongs to",
 	"main": "dist/index.js",
 	"types": "src/main.d.ts",
